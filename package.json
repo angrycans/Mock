@@ -2,7 +2,7 @@
   "name": "mockjs-for-miniapp",
   "title": "Mock.js",
   "description": "支持小程序的mock",
-  "version": "1.0.1-beta3",
+  "version": "1.0.1-beta5",
   "homepage": "http://mockjs.com/",
   "keywords": [
     "mock",

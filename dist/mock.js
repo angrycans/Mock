@@ -25,7 +25,7 @@
 /******/ 			id: moduleId,
 /******/ 			loaded: false
 				/******/
-};
+			};
 
 /******/ 		// Execute the module function
 /******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
@@ -36,7 +36,7 @@
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 			/******/
-}
+		}
 
 
 /******/ 	// expose the modules object (__webpack_modules__)
@@ -51,7 +51,7 @@
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
 		/******/
-})
+	})
 /************************************************************************/
 /******/([
 /* 0 */
@@ -126,7 +126,7 @@
 				module.exports = Mock
 
 				/***/
-},
+			},
 /* 1 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -672,7 +672,7 @@
 				module.exports = Handler
 
 				/***/
-},
+			},
 /* 2 */
 /***/ function (module, exports) {
 
@@ -711,7 +711,7 @@
 				}
 
 				/***/
-},
+			},
 /* 3 */
 /***/ function (module, exports) {
 
@@ -843,7 +843,7 @@
 				module.exports = Util
 
 				/***/
-},
+			},
 /* 4 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -920,7 +920,7 @@
 				}
 
 				/***/
-},
+			},
 /* 5 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -950,7 +950,7 @@
 				module.exports = Random
 
 				/***/
-},
+			},
 /* 6 */
 /***/ function (module, exports) {
 
@@ -1082,7 +1082,7 @@
 				}
 
 				/***/
-},
+			},
 /* 7 */
 /***/ function (module, exports) {
 
@@ -1229,7 +1229,7 @@
 				}
 
 				/***/
-},
+			},
 /* 8 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -1473,19 +1473,6 @@
 							var canvas
 							if (typeof document !== 'undefined') {
 								canvas = document.createElement('canvas')
-							} else {
-								/*
-									https://github.com/Automattic/node-canvas
-										npm install canvas --save
-									安装问题：
-									* http://stackoverflow.com/questions/22953206/gulp-issues-with-cario-install-command-not-found-when-trying-to-installing-canva
-									* https://github.com/Automattic/node-canvas/issues/415
-									* https://github.com/Automattic/node-canvas/wiki/_pages
-				
-									PS：node-canvas 的安装过程实在是太繁琐了，所以不放入 package.json 的 dependencies。
-								 */
-								// var Canvas = module.require('canvas')
-								// canvas = new Canvas()
 							}
 
 							var ctx = canvas && canvas.getContext && canvas.getContext("2d")
@@ -1516,10 +1503,10 @@
 						}
 					}
 					/* WEBPACK VAR INJECTION */
-}.call(exports, __webpack_require__(9)(module)))
+				}.call(exports, __webpack_require__(9)(module)))
 
 				/***/
-},
+			},
 /* 9 */
 /***/ function (module, exports) {
 
@@ -1536,7 +1523,7 @@
 
 
 				/***/
-},
+			},
 /* 10 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -1679,7 +1666,7 @@
 				}
 
 				/***/
-},
+			},
 /* 11 */
 /***/ function (module, exports) {
 
@@ -1862,7 +1849,7 @@
 				}
 
 				/***/
-},
+			},
 /* 12 */
 /***/ function (module, exports) {
 
@@ -1944,7 +1931,7 @@
 				}
 
 				/***/
-},
+			},
 /* 13 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -2071,7 +2058,7 @@
 				}
 
 				/***/
-},
+			},
 /* 14 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -2193,7 +2180,7 @@
 				}
 
 				/***/
-},
+			},
 /* 15 */
 /***/ function (module, exports) {
 
@@ -2286,7 +2273,7 @@
 				}
 
 				/***/
-},
+			},
 /* 16 */
 /***/ function (module, exports) {
 
@@ -2368,7 +2355,7 @@
 				}
 
 				/***/
-},
+			},
 /* 17 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -2421,7 +2408,7 @@
 				}
 
 				/***/
-},
+			},
 /* 18 */
 /***/ function (module, exports) {
 
@@ -6495,7 +6482,7 @@
 				module.exports = DICT_FIXED
 
 				/***/
-},
+			},
 /* 19 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -6606,7 +6593,7 @@
 				}
 
 				/***/
-},
+			},
 /* 20 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -6618,7 +6605,7 @@
 				}
 
 				/***/
-},
+			},
 /* 21 */
 /***/ function (module, exports) {
 
@@ -7194,7 +7181,7 @@
 				module.exports = parser
 
 				/***/
-},
+			},
 /* 22 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -7592,14 +7579,14 @@
 				module.exports = Handler
 
 				/***/
-},
+			},
 /* 23 */
 /***/ function (module, exports, __webpack_require__) {
 
 				module.exports = __webpack_require__(24)
 
 				/***/
-},
+			},
 /* 24 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -7653,14 +7640,14 @@
 
 
 				/***/
-},
+			},
 /* 25 */
 /***/ function (module, exports, __webpack_require__) {
 
 				module.exports = __webpack_require__(26)
 
 				/***/
-},
+			},
 /* 26 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -8111,14 +8098,14 @@
 				module.exports = valid
 
 				/***/
-},
+			},
 /* 27 */
 /***/ function (module, exports, __webpack_require__) {
 
 				module.exports = __webpack_require__(28)
 
 				/***/
-},
+			},
 /* 28 */
 /***/ function (module, exports, __webpack_require__) {
 
@@ -8566,7 +8553,7 @@
 				module.exports = MockXMLHttpRequest
 
 				/***/
-}
+			}
 /******/])
 });
 ;
